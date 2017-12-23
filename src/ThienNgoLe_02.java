@@ -1,14 +1,15 @@
 /**
- * Jeff Rowell
- * Line Length
- * Errors at lines: 27, 29, 31, 45
+ * Interactive The Area of a Triangle Program
+ * This program asks the user to input three sides of a triangle,
+ * calculates the perimeter and the area of the triangle and dispaly the results.
+ * Author: ThienNgo N. Le
  */
 
 import java.text.DecimalFormat;
 import java.util.Objects;
 import java.util.*;
 
-public class ThienNgoLe_5_02 {
+public class ThienNgoLe_02 {
 
     public static void main(String[] args) {
         DecimalFormat twoPlaces = new DecimalFormat("0.00");
@@ -25,8 +26,10 @@ public class ThienNgoLe_5_02 {
         // Input three sides of the triangle
         System.out.print("Input the length of the first side of the triangle a: ");
         a = scnr.nextDouble();
+
         System.out.print("Input the length of the second side of the triangle b: ");
         b = scnr.nextDouble();
+
         System.out.print("Input the length of the third side of the triangle c: ");
         c = scnr.nextDouble();
 
@@ -41,12 +44,13 @@ public class ThienNgoLe_5_02 {
 
         // Output results
         System.out.print("The lengths of the sides of the triangle are ");
-        System.out.println(twoPlaces.format(a) + ", " + twoPlaces.format(b) + ", " + twoPlaces.format(c));
+        System.out.println(twoPlaces.format(a) + ", " + twoPlaces.format(b)
+                + ", " + twoPlaces.format(c));
         System.out.print("The perimeter of the triangle is: ");
         System.out.println(onePlaces.format(perimeter));
         System.out.print("The area of the triangle is: ");
         System.out.println(onePlaces.format(area));
-        System.out.println("ThienNgo N. Le");
+        System.out.println("Program is written by ThienNgo N. Le");
 
         // Close file and exist
         scnr.close();
