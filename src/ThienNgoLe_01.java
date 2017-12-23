@@ -1,7 +1,7 @@
 /**
  * Interactive Average Program
  * This program asks the user to input two real numbers,
- * calculates the average of these numbers, and prints the results
+ * calculates the average of these numbers, and display the result.
  * Author: ThienNgo N. Le
  */
 
@@ -21,6 +21,7 @@ public class ThienNgoLe_01 {
         // Input the two numbers
         System.out.print("Enter your first number: ");
         num1 = console.nextDouble();
+
         System.out.print("Enter your second number: ");
         num2 = console.nextDouble();
 
