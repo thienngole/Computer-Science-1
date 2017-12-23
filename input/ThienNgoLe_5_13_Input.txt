@@ -1,0 +1,8 @@
+ 1.0   2   3.0    4   15.15    Galileo, Galilei
+6.6     7    8.8   9   -0.10   Newton, Isaac
+    11.11     12    13.13     14   15.15    Maxwell, James Clerk
+1.0   2   3.0    4   15.15    Einstein, Albert
+6.6     7    8.8   9 10.10    Gauss, Karl Friederich
+    111.111     123    123.123     514   -515.515        Einstein, Albert
+ 
+ 
