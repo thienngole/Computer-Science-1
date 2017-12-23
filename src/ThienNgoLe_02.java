@@ -1,7 +1,7 @@
 /**
  * Interactive The Area of a Triangle Program
  * This program asks the user to input three sides of a triangle,
- * calculates the perimeter and the area of the triangle and dispaly the results.
+ * calculates the perimeter and the area of the triangle and displays the results.
  * Author: ThienNgo N. Le
  */
 
