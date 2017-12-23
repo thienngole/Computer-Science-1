@@ -1,19 +1,14 @@
 /**
  * Interactive The Area of a Triangle Program
  * This program calculates area of a triangle using method
- * ThienNgo n. Le
- * Program #5, CS 1050, Section 5
- * Jre 1.8.0_31, windows8 64-bit
- * ornithology: a branch of science that deals with the study of birds
- * "Coming together is a beginning; keeping together is progress;
- * working together is success." Henry Ford(1863-1947)
+ * Author: ThienNgo n. Le
  */
 
 import java.util.*;
 
 import java.text.DecimalFormat;
 
-public class ThienNgoLe_5_05 {
+public class ThienNgoLe_05 {
 
     static Scanner console = new Scanner(System.in);
     static Toolkit tools = new Toolkit();
@@ -52,8 +47,7 @@ public class ThienNgoLe_5_05 {
                 + " entered by the user. \n"
                 + "The output are the three sides of a triangle, the perimeter \n"
                 + "and the area of the triangle, \n"
-                + "Note: methods are used. \n"
-                + "ThienNgo Le");
+                + "Note: methods are used.");
     }  // End Explain method
 
     //*****************************************************************************
@@ -98,8 +92,9 @@ public class ThienNgoLe_5_05 {
         areaStr = tools.leftPad(area, 15, "0.00", " ");
 
         System.out.println("The lengths of the sides are : " +
-                side1Str + side2Str + side3Str + "\n The perimeter is:" +
-                perimeterStr + "\n The area is:" + areaStr);
+                side1Str + side2Str + side3Str + "\nThe perimeter is:" +
+                perimeterStr + "\nThe area is:" + areaStr
+                + "\nProgram is written by ThienNgo N. Le");
 
         // Exit
         System.exit(0);
