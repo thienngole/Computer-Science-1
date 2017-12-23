@@ -2,18 +2,13 @@
  * Java input/output Program
  * This program uses files for input and output to read a file of
  * numbers and sum and average them.
- * ThienNgo N. Le
- * Program #4, CS 1050, Section 5
- * Jre 1.8.0_31, windows8 64-bit
- * Wisdom: knowledge that is gained by having many experiances in life.
- * "Life isn't about finding yourself. Life is about creating yourself"
- * George Bernard Shaw(1856-1950)
+ * Author: ThienNgo N. Le
  */
 
 import java.util.Scanner;       // Access the Scanner class.
 import java.io.*;               // Access PrintWriter and related classes.
 
-public class ThienNgoLe_5_04 {
+public class ThienNgoLe_04 {
 
     static Toolkit tools = new Toolkit();
 
@@ -21,16 +16,16 @@ public class ThienNgoLe_5_04 {
 
         // Define the file's names
         final String INPUT_FILE =
-                "C:\\Users\\thienngo\\Desktop\\ThienNgoLe_5_04_Input.txt";
+                "input\\ThienNgoLe_5_04_Input.txt";
         final String OUTPUT_FILE =
-                "C:\\Users\\thienngo\\Desktop\\ThienNgoLe_5_04_Output.txt";
+                "output\\ThienNgoLe_5_04_Output.txt";
 
         // Declare variables
-        int numberOfNumbers = 0; // Number of numbers in the input file
+        int numberOfNumbers = 0;    // Number of numbers in the input file
         double sum = 0;             // The sum of the numbers
-        double average = 0;      // The average of the numbers read
-        double nextNumber;         // An individual number read from the file
-        String oneLine;          // Fast output
+        double average = 0;         // The average of the numbers read
+        double nextNumber;          // An individual number read from the file
+        String oneLine;             // Fast output
         final String TWO_PLACES = "0.00";
 
         // Access the input file
@@ -69,7 +64,8 @@ public class ThienNgoLe_5_04 {
         oneLine =
                 "Number of numbers in the input file is " + numberOfNumbers + "\r\n" +
                         "Their sum is " + tools.leftPad(sum, 2, TWO_PLACES, "") + "\r\n" +
-                        "and their average is " + tools.leftPad(average, 2, TWO_PLACES, "");
+                        "and their average is " + tools.leftPad(average, 2, TWO_PLACES, "")
+                        + "\r\n" + "Program is written by ThienNgo N. Le";
 
         System.out.println(oneLine); // Output to the console
         outputFile.println(oneLine); // Output to the output file

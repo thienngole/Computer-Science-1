@@ -1,0 +1,18 @@
+Reading  file input\ThienNgoLe_5_04_Input.txt
+Creating file output\ThienNgoLe_5_04_Output.txt
+  Number     Running Total
+---------   ---------------
+     1.00           1.00
+     2.23           3.23
+     3.14           6.37
+    24.00          30.37
+     5.00          35.37
+     6.00          41.37
+    17.00          58.37
+     8.00          66.37
+    -9.00          57.37
+    10.00          67.37
+Number of numbers in the input file is 10
+Their sum is 67.37
+and their average is 6.74
+Program is written by ThienNgo N. Le
