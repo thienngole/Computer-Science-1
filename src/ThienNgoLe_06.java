@@ -1,19 +1,13 @@
 /**
  * Calculate mileage reimbursement
  * This program calculates mileage reimbursement based on a table
- * ThienNgo n. Le
- * Program #6, CS 1050, Section 5
- * Jre 1.8.0_31, windows8 64-bit
- * solecism: a mistake in speech or writing
- * "If money is your hope for independence you will never have it.
- * The only real security that a man will have in this world is a
- * reserve of knowledge, experience, and ability." Henry Ford(1863-1947)
+ * Author: ThienNgo n. Le
  */
 
 import java.util.*;
 import java.io.*;
 
-public class ThienNgoLe_5_06 {
+public class ThienNgoLe_06 {
 
     static Toolkit tools = new Toolkit();
     static final String ONE_PLACE = "0.0";
@@ -31,9 +25,9 @@ public class ThienNgoLe_5_06 {
 
         // Define the file's names
         final String INPUT_FILE =
-                "C:\\Users\\thienngo\\Desktop\\ThienNgoLe_5_06_Input.txt";
+                "input\\ThienNgoLe_5_06_Input.txt";
         final String OUTPUT_FILE =
-                "C:\\Users\\thienngo\\Desktop\\ThienNgoLe_5_06_Output.txt";
+                "output\\ThienNgoLe_5_06_Output.txt";
 
         // Access the input file
         File inputDataFile = new File(INPUT_FILE);
@@ -163,7 +157,8 @@ public class ThienNgoLe_5_06 {
                 "\r\n" + "The number of positive miles is: "
                 + tools.leftPad(numPositive, 10, "0", " ") +
                 "\r\nThe total of reimbursement is: "
-                + tools.leftPad(sumReimbursement, 12, TWO_PLACE, " ");
+                + tools.leftPad(sumReimbursement, 12, TWO_PLACE, " ")
+                + "\r\nProgram is written by ThienNgo N. Le";
         output.println(oneLine);      // Output to the output file
         System.out.println(oneLine);  // Echo to the console
 
