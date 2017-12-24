@@ -1,19 +1,14 @@
 /**
  * Convert to Word Program
  * This program convert a dollar amount to words as is done when writing checks.
- * ThienNgo N. Le
- * Program #12, CS 1050, Section 5
- * Jre 1.8.0_31, windows8 64-bit
- * Lachrymose: tending to cause tears
- * "Always keep your smile. That's how I explain my long life."
- * Jeanne Calment(1875-1997)
+ * Author: ThienNgo N. Le
  */
 
 import java.util.*;
 import java.io.*;
 import java.text.DecimalFormat;
 
-public class ThienNgoLe_5_12 {
+public class ThienNgoLe_12 {
 
     static Toolkit tools = new Toolkit();
     // Ten names
@@ -29,9 +24,9 @@ public class ThienNgoLe_5_12 {
 
         // Define the file's names
         final String INPUT_FILE =
-                "C:\\Users\\thienngo\\Desktop\\ThienNgoLe_5_12_Input.txt";
+                "input\\ThienNgoLe_5_12_Input.txt";
         final String OUTPUT_FILE =
-                "C:\\Users\\thienngo\\Desktop\\ThienNgoLe_5_12_Output.txt";
+                "output\\ThienNgoLe_5_12_Output.txt";
 
         int nNum = 0;            // The number of valid dollar amounts
         double total = 0.0;      // The total valid dollar amounts
@@ -169,7 +164,8 @@ public class ThienNgoLe_5_12 {
         String line = "";
         line = "\r\nThe number of valid dollars: " + nNum +
                 "\r\nThe total valid dollar amounts printed: " + total +
-                "\r\nThe largest valid amount: " + largest;
+                "\r\nThe largest valid amount: " + largest +
+                "\r\nProgram is written by ThienNgo N. Le";
         output.println(line);     // Output to the output file
         System.out.println(line); // Echo to the console
 
