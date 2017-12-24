@@ -3,17 +3,13 @@
  * This program asks the user to input the integer values,
  * calculates the sum and average of these values,
  * and prints the results to the console
- * ThienNgo N. Le
- * Program #11, CS 1050, Section 5
- * Jre 1.8.0_31, windows8 64-bit
- * Aspiration: a drawing of something in, out,up or through by as if by suction
- * "Things do not change; we change" Henry David Thoreau (1817-1862)
+ * Author: ThienNgo N. Le
  */
 
 import java.util.*;
 import java.io.*;
 
-public class ThienNgoLe_5_11 {
+public class ThienNgoLe_11 {
 
     static Toolkit tools = new Toolkit();
     static final String TWO_PLACE = "0.00";
@@ -59,6 +55,7 @@ public class ThienNgoLe_5_11 {
                 + "\nThe total of values processed is: "
                 + tools.leftPad(total, 8, TWO_PLACE, " ")
                 + "\nThe average of values processed is: "
-                + tools.leftPad(average, 8, TWO_PLACE, " "));
+                + tools.leftPad(average, 8, TWO_PLACE, " ")
+                + "\nProgram is written by ThienNgo N. Le");
     } // End main
 } // End class
