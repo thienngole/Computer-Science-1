@@ -2,37 +2,32 @@
  * Process grades and names from an input file
  * This program produces a report in an output file
  * based on the range of grades
- * ThienNgo n. Le
- * Program #7, CS 1050, Section 5
- * Jre 1.8.0_31, windows8 64-bit
- * satisfactory: good enough for a particular purpose
- * "Success is how high you bounce when you hit bottom."
- * George S. Patton(1885-1945)
+ * Author: ThienNgo N. Le
  */
 
 import java.util.*;
 import java.io.*;
 
-public class ThienNgoLe_5_07 {
+public class ThienNgoLe_07 {
 
     static Toolkit tools = new Toolkit();
 
     public static void main(String[] args) throws IOException {
 
-        int grade = 0;         // The grades of students
-        int nNumbers = 0;      // The number of students
-        int nNum70_89 = 0;     // The number of grade between 70 and 89
-        double sum70_89 = 0.0; // Total grade of all grade between 70 and 89
-        double average = 0.0;  // The average of grade between 70 and 89
-        String name = "";      // The name of students
-        String message = "";   // The message about student
-        String oneLine = "";   // Information to output
+        int grade = 0;          // The grades of students
+        int nNumbers = 0;       // The number of students
+        int nNum70_89 = 0;      // The number of grade between 70 and 89
+        double sum70_89 = 0.0;  // Total grade of all grade between 70 and 89
+        double average = 0.0;   // The average of grade between 70 and 89
+        String name = "";       // The name of students
+        String message = "";    // The message about student
+        String oneLine = "";    // Information to output
 
         // Define the file's names
         final String INPUT_FILE =
-                "C:\\Users\\thienngo\\Desktop\\ThienNgoLe_5_07_Input.txt";
+                "input\\ThienNgoLe_5_07_Input.txt";
         final String OUTPUT_FILE =
-                "C:\\Users\\thienngo\\Desktop\\ThienNgoLe_5_07_Output.txt";
+                "output\\ThienNgoLe_5_07_Output.txt";
 
         // Access the input file
         File inputDataFile = new File(INPUT_FILE);
@@ -111,7 +106,8 @@ public class ThienNgoLe_5_07 {
                 "\r\nThe number of students have grade between 70 and 89 is: " +
                 tools.leftPad(nNum70_89, 5, "0", " ") +
                 "\r\nThe average of the grade between 70 and 89 is: " +
-                tools.leftPad(average, 5, "0.0", " ");
+                tools.leftPad(average, 5, "0.0", " ") +
+                "\r\nProgram is written by ThienNgo N. Le";
         output.println(oneLine);     // Output to the output file
         System.out.println(oneLine); // Echo output to the console
     } // End outputResult
