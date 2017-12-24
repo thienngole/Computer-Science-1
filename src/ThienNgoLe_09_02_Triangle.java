@@ -30,7 +30,7 @@ import java.util.Scanner;
 
 import java.text.DecimalFormat;
 
-public class ThienNgoLe_5_09_Triangle {
+public class ThienNgoLe_09_02_Triangle {
     private double side1, side2, side3;
     Scanner console = new Scanner(System.in);
     static Toolkit tools = new Toolkit();
@@ -38,7 +38,7 @@ public class ThienNgoLe_5_09_Triangle {
     //****************************************************************************
 
     // Default constructor - initialize side1, side2, and side3 to 0
-    public ThienNgoLe_5_09_Triangle() {
+    public ThienNgoLe_09_02_Triangle() {
         side2 = 0;
         side2 = 0;
         side3 = 0;
@@ -47,11 +47,11 @@ public class ThienNgoLe_5_09_Triangle {
     //****************************************************************************
 
     // Constructor initialize side1 to value1, side2 to value2, and side3 to value3
-    public ThienNgoLe_5_09_Triangle(double value1, double value2, double value3) {
+    public ThienNgoLe_09_02_Triangle(double value1, double value2, double value3) {
         side1 = value1;
         side2 = value2;
         side3 = value3;
-    } // End ThienNgoLe_5_09_Triangle(double value2, double value2, double value3)
+    } // End ThienNgoLe_09_02_Triangle(double value2, double value2, double value3)
 
     //****************************************************************************
 
