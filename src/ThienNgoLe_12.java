@@ -12,18 +12,18 @@ public class ThienNgoLe_12 {
 
     static Toolkit tools = new Toolkit();
     // Ten names
-    static final String[] TEN_NAMES = {"", "Ten", "Twenty", "Thirty", "Forty", "Fifty",
-            "Sixty", "Seventy", "Eighty", "Ninety"};
+    static final String[] TEN_NAMES = {"","Ten","Twenty","Thirty","Forty","Fifty",
+            "Sixty","Seventy","Eighty","Ninety"};
     // Unit names
-    static final String[] NUM_NAMES = {"", "One", "Two", "Three", "Four", "Five", "Six",
-            "Seven", "Eight", "Nine", "Ten", "Eleven",
-            "Twelve", "Thirteen", "Fourteen", "Fifteen",
-            "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
+    static final String[] NUM_NAMES = {"","One","Two","Three","Four","Five","Six",
+            "Seven","Eight","Nine","Ten","Eleven",
+            "Twelve","Thirteen","Fourteen","Fifteen",
+            "Sixteen","Seventeen","Eighteen","Nineteen"};
 
-    public static void main(String[] args) throws IOException {
+    public static void main (String[]args) throws IOException {
 
         // Define the file's names
-        final String INPUT_FILE =
+        final String INPUT_FILE  =
                 "input\\ThienNgoLe_5_12_Input.txt";
         final String OUTPUT_FILE =
                 "output\\ThienNgoLe_5_12_Output.txt";
@@ -40,33 +40,35 @@ public class ThienNgoLe_12 {
 
         // Access the input file
         File inputDataFile = new File(INPUT_FILE);
-        Scanner inputFile = new Scanner(inputDataFile);
+        Scanner inputFile  = new Scanner(inputDataFile);
 
         // Access the output file
         FileWriter outputDataFile = new FileWriter(OUTPUT_FILE);
         PrintWriter outputFile = new PrintWriter(outputDataFile);
 
         // Print the heading
-        Heading(outputFile);
+        Heading( outputFile);
 
         // Read data from input file and convert to word
         while (inputFile.hasNext()) {
             values = inputFile.nextDouble();
+
             // Identify the range of values process
-            if (values >= 0.01 && values <= 9999.99) {
-                ++nNum; // count the number of valid dollar amounts
+            if (values > 0 && values < 1000) {
+                ++ nNum; // count the number of valid dollar amounts
                 total += values; // calculate the total of valid dollar amounts
 
                 // Find the largest valid dollar amount
                 if (values > largest) {
                     largest = values;
                 }
-                dollars = (int) (values); // Get the value of dollars
-                cents = ((int) (values * 100) - (dollars * 100)); // Get the value of cents
+
+                dollars = (int)(values); // Get the value of dollars
+                cents = ((int)(values * 100) - (dollars * 100)); // Get the value of cents
 
                 // Convert the values from 0.01 to 999.99
-                if (dollars <= 999) {
-                    WordToPrint = convertLessThanThousand(dollars, cents);
+                if (dollars < 1000) {
+                    WordToPrint = convertLessThanThousand (dollars, cents);
                 }
 
                 // Convert the values from 1000 to 9999.99
@@ -75,7 +77,7 @@ public class ThienNgoLe_12 {
                     hundred = (int) values - thousand;
                     // Convert to word
                     WordToPrint = NUM_NAMES[thousand] + " Thousand "
-                            + convertLessThanThousand(hundred, cents);
+                            + convertLessThanThousand (hundred, cents);
 
                 } // End else of "Convert the values from 1000 to 9999.99"
 
@@ -91,7 +93,7 @@ public class ThienNgoLe_12 {
 
         } // End while
 
-        // Print summary information to the input file and display to the console
+        // Print summary information to the input file and acho to the console
         printSummary(outputFile, total, nNum, largest);
 
         // Close the input file
@@ -107,7 +109,7 @@ public class ThienNgoLe_12 {
     //****************************************************************************
 
     // Print the heading
-    public static void Heading(PrintWriter output) {
+    public static void Heading( PrintWriter output) {
         String line = "";
         line = " Data         In Words                                          \r\n"
                 + "-----------  ------------------------------------------------------";
@@ -120,26 +122,29 @@ public class ThienNgoLe_12 {
 
     // Convert less than thousand
     public static String convertLessThanThousand(int dollars, int cents) {
+
         String wordPrint = "";
         if ((dollars % 100) < 20) {
             wordPrint = NUM_NAMES[dollars % 100];
             dollars = dollars / 100;
-        } else {
+        }
+        else {
             if (dollars % 10 == 0) {
                 dollars /= 10;
                 wordPrint = TEN_NAMES[dollars % 10];
-            } else {
+            }
+            else {
                 wordPrint = NUM_NAMES[dollars % 10];
                 dollars /= 10;
                 wordPrint = TEN_NAMES[dollars % 10] + "-" + wordPrint;
                 dollars /= 10;
             }
         }
-        if (dollars == 0) {
+        if (dollars ==0) {
             return wordPrint + " and " + cents + "/100 dollars";
         }
         return NUM_NAMES[dollars] + " Hundred " + wordPrint
-                + " and " + cents + "/100 dollars";
+                + " and " + cents +"/100 dollars";
     } // End convertLessThanThousand
 
     //****************************************************************************

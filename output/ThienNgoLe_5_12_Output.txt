@@ -1,0 +1,17 @@
+ Data         In Words                                          
+-----------  ------------------------------------------------------
+     $3.14   Three and 14/100 dollars                                                                            
+    $54.54   Fifty-Four and 54/100 dollars                                                                       
+   $100.00   One Hundred  and 0/100 dollars                                                                      
+  $1024.54   *** Number out of range                                                                             
+  $2718.28   *** Number out of range                                                                             
+ $10000.01   *** Number out of range                                                                             
+   $999.99   Nine Hundred Ninety-Nine and 99/100 dollars                                                         
+  $6543.21   *** Number out of range                                                                             
+    -$3.14   *** Number out of range                                                                             
+    $20.00   Two Hundred Twenty and 0/100 dollars                                                                
+
+The number of valid dollars: 5
+The total valid dollar amounts printed: 1177.67
+The largest valid amount: 999.99
+Program is written by ThienNgo N. Le
