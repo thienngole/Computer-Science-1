@@ -91,7 +91,7 @@ public class ThienNgoLe_12 {
 
         } // End while
 
-        // Print summary information to the input file and acho to the console
+        // Print summary information to the input file and display to the console
         printSummary(outputFile, total, nNum, largest);
 
         // Close the input file

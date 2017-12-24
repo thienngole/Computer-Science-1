@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47c5c552-3e82-4c09-83e7-74614c34cc19" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ComputerScience1/ThienNgoLe_5_12.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThienNgoLe_5_12.java" afterPath="$PROJECT_DIR$/src/ThienNgoLe_12.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ComputerScience1/ThienNgoLe_12.class" afterPath="$PROJECT_DIR$/out/production/ComputerScience1/ThienNgoLe_12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ThienNgoLe_12.java" afterPath="$PROJECT_DIR$/src/ThienNgoLe_12.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +44,8 @@
       <file leaf-file-name="ThienNgoLe_12.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_12.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-882">
-              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state relative-caret-position="268">
+              <caret line="167" column="16" lean-forward="false" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -298,12 +298,12 @@
       <workItem from="1514000787721" duration="4617000" />
       <workItem from="1514006548892" duration="1170000" />
       <workItem from="1514045681656" duration="858000" />
-      <workItem from="1514047507666" duration="8505000" />
+      <workItem from="1514047507666" duration="10601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15150000" />
+    <option name="totallyTimeSpent" value="17246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="-12" width="1944" height="1034" extended-state="6" />
@@ -591,8 +591,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_12.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-882">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        <state relative-caret-position="268">
+          <caret line="167" column="16" lean-forward="false" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
