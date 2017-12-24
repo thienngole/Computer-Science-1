@@ -1,18 +1,13 @@
 /**
  * Payroll Calculation Program
  * This program Calculate net pay using parallel and 2 dimensional arrays.
- * ThienNgo N. Le
- * Program #10, CS 1050, Section 5
- * Jre 1.8.0_31, windows8 64-bit
- * Motivity: the power of moving or producing motion
- * "Progress is impossible without change, and those who cannot
- * change their minds cannot change anything." George Bernard Shaw (1856-1950)
+ * Author: ThienNgo N. Le
  */
 
 import java.util.*;
 import java.io.*;
 
-public class ThienNgoLe_5_010 {
+public class ThienNgoLe_10_02 {
 
     static Toolkit tools = new Toolkit();
     static final int max = 30; // The maximun number of employees
@@ -29,8 +24,8 @@ public class ThienNgoLe_5_010 {
         double rateAvg = 0.0;     // The average of pay rate
         double hourAvg = 0.0;     // The average of hour
         // Define the file's names
-        final String INPUT_FILE = "ThienNgoLe_5_010_Input.txt";
-        final String OUTPUT_FILE = "ThienNgoLe_5_010_Output.txt";
+        final String INPUT_FILE = "input\\ThienNgoLe_5_010_Input.txt";
+        final String OUTPUT_FILE = "output\\ThienNgoLe_5_010_Output.txt";
 
         // Access the input file
         File inputDataFile = new File(INPUT_FILE);
@@ -312,7 +307,9 @@ public class ThienNgoLe_5_010 {
                 + "Average: " + tools.leftPad(hour, 15, "0.00", " ")
                 + tools.leftPad(rate, 7, "0.00", " ") + "\r\n"
                 + "----------------------------------------------------------------------\r\n"
-                + "The number of employees processed is: " + nNames + "\r\n";
+                + "The number of employees processed is: " + nNames + "\r\n"
+                + "Program is written by ThienNgo N. Le\r\n";
+
         System.out.println(Line); // Echo to the console
         output.println(Line);     // Output to the output file
 

@@ -18,12 +18,7 @@
  * side1, side2, and side3
  * outputSides () - outputs the value of side1, side2, and side3
  * <p>
- * ThienNgo N. Le
- * Program #9, CS 1050, Section 5
- * Jre 1.8.0_31, windows8 64-bit
- * postprandial: heppening after a meal
- * "You need to overecome the tug of people against you
- * as you reach for high goals." George S. Patton(1885-1945)
+ * Author: ThienNgo N. Le
  */
 
 import java.util.Scanner;

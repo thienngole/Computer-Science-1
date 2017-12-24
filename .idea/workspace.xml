@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47c5c552-3e82-4c09-83e7-74614c34cc19" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ThienNgoLe_5_09_Triangle.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThienNgoLe_5_09.java" afterPath="$PROJECT_DIR$/src/ThienNgoLe_09_01.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ComputerScience1/ThienNgoLe_5_010.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ComputerScience1/ThienNgoLe_5_10.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThienNgoLe_5_010.java" afterPath="$PROJECT_DIR$/src/ThienNgoLe_10_02.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThienNgoLe_5_10.java" afterPath="$PROJECT_DIR$/src/ThienNgoLe_10_01.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ComputerScience1/ThienNgoLe_09_02_Triangle.class" afterPath="$PROJECT_DIR$/out/production/ComputerScience1/ThienNgoLe_09_02_Triangle.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ThienNgoLe_09_02_Triangle.java" afterPath="$PROJECT_DIR$/src/ThienNgoLe_09_02_Triangle.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_01.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
-              <caret line="33" column="64" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="64" />
+              <caret line="33" column="64" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="64" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -28,48 +32,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThienNgoLe_05.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_05.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="94" column="52" lean-forward="false" selection-start-line="94" selection-start-column="52" selection-end-line="94" selection-end-column="52" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThienNgoLe_08.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_08.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4628">
-              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThienNgoLe_09_01.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThienNgoLe_09_01.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_09_01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
+            <state relative-caret-position="1170">
               <caret line="65" column="57" lean-forward="false" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThienNgoLe_09_02_Triangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_09_02_Triangle.java">
+      <file leaf-file-name="ThienNgoLe_10_02.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_10_02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="53" column="38" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
-              <folding />
+            <state relative-caret-position="-378">
+              <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThienNgoLe_10_01.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_10_01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5382">
+              <caret line="317" column="60" lean-forward="false" selection-start-line="317" selection-start-column="16" selection-end-line="317" selection-end-column="60" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,8 +110,11 @@
         <option value="$PROJECT_DIR$/src/ThienNgoLe_5_08.java" />
         <option value="$PROJECT_DIR$/src/ThienNgoLe_08.java" />
         <option value="$PROJECT_DIR$/src/ThienNgoLe_5_09.java" />
-        <option value="$PROJECT_DIR$/src/ThienNgoLe_09_02_Triangle.java" />
         <option value="$PROJECT_DIR$/src/ThienNgoLe_09_01.java" />
+        <option value="$PROJECT_DIR$/src/ThienNgoLe_10.java" />
+        <option value="$PROJECT_DIR$/src/ThienNgoLe_09_02_Triangle.java" />
+        <option value="$PROJECT_DIR$/src/ThienNgoLe_10_01.java" />
+        <option value="$PROJECT_DIR$/src/ThienNgoLe_10_02.java" />
       </list>
     </option>
   </component>
@@ -198,10 +195,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThienNgoLe_09_01">
-    <configuration name="ThienNgoLe_09_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ThienNgoLe_10_02">
+    <configuration name="ThienNgoLe_10_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ThienNgoLe_09_01" />
+      <option name="MAIN_CLASS_NAME" value="ThienNgoLe_10_02" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -296,7 +293,7 @@
     </configuration>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.ThienNgoLe_09_01" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ThienNgoLe_10_02" />
       </list>
     </recent_temporary>
   </component>
@@ -313,15 +310,16 @@
       <workItem from="1514000787721" duration="4617000" />
       <workItem from="1514006548892" duration="1170000" />
       <workItem from="1514045681656" duration="858000" />
-      <workItem from="1514047507666" duration="6440000" />
+      <workItem from="1514047507666" duration="7539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13085000" />
+    <option name="totallyTimeSpent" value="14184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="-12" width="1944" height="1034" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -428,14 +426,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_5_10.java">
+    <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_10_01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_5_010.java">
+    <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_10_02.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
@@ -468,20 +466,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Example.java" />
     <entry file="file://$PROJECT_DIR$/out/production/ComputerScience1/ThienNgoLe_5_01.class" />
-    <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_5_10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_5_010.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_5_11.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -572,10 +556,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_09_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="65" column="57" lean-forward="false" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_09_02_Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="53" column="38" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+        <state relative-caret-position="252">
+          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -583,18 +575,32 @@
     <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="33" column="64" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="64" />
+          <caret line="33" column="64" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="64" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_09_01.java">
+    <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_10_01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="65" column="57" lean-forward="false" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="5382">
+          <caret line="317" column="60" lean-forward="false" selection-start-line="317" selection-start-column="16" selection-end-line="317" selection-end-column="60" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThienNgoLe_10_02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
