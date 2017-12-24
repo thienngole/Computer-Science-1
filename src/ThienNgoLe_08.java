@@ -1,18 +1,13 @@
 /**
  * Calculate mileage reimbursement using arrays and methods.
  * This program calculates mileage reimbursement based on a table
- * ThienNgo n. Le
- * Program #8, CS 1050, Section 5
- * Jre 1.8.0_31, windows8 64-bit
- * solecism: a mistake in speech or writing
- * "When I do good, I feel good. When I do bad I feel bad.
- * That's my religion." Abraham Lincoln (1809-1865)
+ * Author: ThienNgo N. Le
  */
 
 import java.util.*;
 import java.io.*;
 
-public class ThienNgoLe_5_08 {
+public class ThienNgoLe_08 {
 
     static Toolkit tools = new Toolkit();
     static final String ONE_PLACE = "0.0";
@@ -20,20 +15,20 @@ public class ThienNgoLe_5_08 {
 
     public static void main(String[] args) throws IOException {
 
-        int nNum = 0;        // The number of mileage values processed
-        int positiveVal = 0; // The number of mileage values that is greater than 0
-        double miles[];      // Mileage values
-        double reimb[];      // Reimbursement values
+        int nNum = 0;          // The number of mileage values processed
+        int positiveVal = 0;   // The number of mileage values that is greater than 0
+        double miles[];        // Mileage values
+        double reimb[];        // Reimbursement values
         double totMiles;       // The total of mileage values that were greater than 0
-        double totReimb;     // The total of reimbursement values
-        double avgReimb;     // The averages number of reimbursement
-        double avgMiles;     // The averages number of miles traveled
+        double totReimb;       // The total of reimbursement values
+        double avgReimb;       // The averages number of reimbursement
+        double avgMiles;       // The averages number of miles traveled
 
         // Define the file's names
         final String INPUT_FILE =
-                "C:\\Users\\thienngo\\Desktop\\ThienNgoLe_5_08_Input.txt";
+                "input\\ThienNgoLe_5_08_Input.txt";
         final String OUTPUT_FILE =
-                "C:\\Users\\thienngo\\Desktop\\ThienNgoLe_5_08_Output.txt";
+                "output\\ThienNgoLe_5_08_Output.txt";
 
         // Access the input file
         File inputDataFile = new File(INPUT_FILE);
@@ -285,7 +280,8 @@ public class ThienNgoLe_5_08 {
                 "\r\nThe average number of miles traveled is: "
                 + tools.leftPad(avgM, 5, TWO_PLACE, " ") +
                 "\r\nThe average reimbursement is: "
-                + tools.leftPad(avgR, 5, TWO_PLACE, " ");
+                + tools.leftPad(avgR, 5, TWO_PLACE, " ") +
+                "\r\nProgram is written by ThienNgo N. Le";
         output.println(oneLine);      // Output to the output file
         System.out.println(oneLine);  // Echo to the console
 

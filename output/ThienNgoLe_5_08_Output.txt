@@ -1,0 +1,22 @@
+This program uses arrays and methods to calculate
+mileage reimbursement based on a table and output
+the results to the output file and to the console
+  Mileage     Reimbursement
+----------   ---------------
+     250.6          45.11
+      99.4          17.89
+      -2.8          *****
+     999.4         126.93
+     799.4         124.91
+    1899.8         199.98
+       0.0          *****
+    1300.2         140.02
+    1101.7         139.20
+    3333.3         239.00
+The total of the reimbursement values is: 1033.04
+The number of mileage values processed is:    10
+The number of mileage values that were greater than 0 is:     8
+The total of mileage values that were greater than 0 is: 9783.80
+The average number of miles traveled is: 1222.97
+The average reimbursement is: 129.13
+Program is written by ThienNgo N. Le
