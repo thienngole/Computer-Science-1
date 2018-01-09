@@ -39,27 +39,27 @@ calculates the average of these numbers, and display the result.
     ≥ 2600 miles			$195.00 plus 6 cents for each mile over 2600
 
 7. ThienNgoLe_07.java: This program produces a report in an output file based on the range of grades.
-Write a Java program that reads from one file and writes to a second file. The program processes input lines until the end of file. Read and process the input file in one pass through of the file. All output should be to one file.  Each line in the input file contains an integer followed by a name as shown below. Use a String to store the name. The main method should contain all the variables. Create a printed report that consists of a table with appropriate headings. The columns of the report contain the name, value, and then a message in that order.  The message is “OUTSTANDING” if the value is 90 or more; “Satisfactory” if the value is between 70 and 89 inclusive; “FAILING” otherwise.  Use "if/else/if" or a table-driven approach. Use methods to line up the columns of the report. Use the padString method to output the name (a string) to a specified width, and a leftPad method for the value. Use Toolkit for the leftPad and padString methods. After all the data lines have been processed, print with messages the number of data lines processed, and the number and real average of the values between 70 and 89 inclusive. The average is formatted to one decimal place.
-Follow the documentation guidelines. Methods must be used at least for the heading of the table and for the summary of the table. 
-Data to use in this order: 
-------------------------------------
- 70         Light Karen L    
- 99         Fagan Bert Todd     
- 60         Antrim Forrest N    
- 73         Camden Warren       
- 80         Mulicka Al B       
- 99         Lee Phoebe
- 75         Bright Harry    
- 92         Garris Ted
- 83         Benson Martyne     
- 71         Lloyd Jeanine D     
- 43         Leslie Bennie A     
- 40         Brandt Leslie       
- 100       Schulman David      
- 51         Worthington Dan     
- 60         Hall Gus W          
- 60         Prigeon Dale R      
- 96         Fitzgibbons Rusty   
+    Write a Java program that reads from one file and writes to a second file. The program processes input lines until the end of file. Read and process the input file in one pass through of the file. All output should be to one file.  Each line in the input file contains an integer followed by a name as shown below. Use a String to store the name. The main method should contain all the variables. Create a printed report that consists of a table with appropriate headings. The columns of the report contain the name, value, and then a message in that order.  The message is “OUTSTANDING” if the value is 90 or more; “Satisfactory” if the value is between 70 and 89 inclusive; “FAILING” otherwise.  Use "if/else/if" or a table-driven approach. Use methods to line up the columns of the report. Use the padString method to output the name (a string) to a specified width, and a leftPad method for the value. Use Toolkit for the leftPad and padString methods. After all the data lines have been processed, print with messages the number of data lines processed, and the number and real average of the values between 70 and 89 inclusive. The average is formatted to one decimal place.
+    Follow the documentation guidelines. Methods must be used at least for the heading of the table and for the summary of the table. 
+    Data to use in this order: 
+    ------------------------------------
+     70         Light Karen L    
+    99         Fagan Bert Todd     
+     60         Antrim Forrest N    
+     73         Camden Warren       
+     80         Mulicka Al B       
+     99         Lee Phoebe
+     75         Bright Harry    
+     92         Garris Ted
+     83         Benson Martyne     
+    71         Lloyd Jeanine D     
+    43         Leslie Bennie A     
+    40         Brandt Leslie       
+     100       Schulman David      
+     51         Worthington Dan     
+     60         Hall Gus W          
+     60         Prigeon Dale R      
+     96         Fitzgibbons Rusty   
 
 8. ThienNgoLe_08.java: arrays and methods are used in this program. This program calculates mileage reimbursement based on a table
 
